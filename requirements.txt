@@ -1,5 +1,8 @@
-# matplotlib
-# scipy
-# numpy
+vtk==9.2.2
+matplotlib
+scipy
+numpy
 mayavi
-# ipympl
+ipympl
+sympy
+jupyter_contrib_nbextensions
