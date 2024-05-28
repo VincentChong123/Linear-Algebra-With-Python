@@ -1,0 +1,40 @@
+
+
+# project:
+#   title: "quarto"
+#   type: website
+#   output-dir: docs_subdir
+# format:
+#   html:
+#     code-overflow: wrap
+
+
+project:
+  type: website
+  output-dir: docs_subdir
+
+format:
+  pdf:
+    documentclass: article
+    toc: true
+    toc_depth: 2    
+
+    code-overflow: wrap
+    code-line-numbers: true
+    code_syntax_highlight: true     
+
+  html:
+    embed-resources: true
+    code-overflow: wrap
+    toc: true
+    toc_depth: 2
+    code_syntax_highlight: true 
+    code-line-numbers: true
+    code-copy: true  
+    lightbox: true
+    plotly-connected: true
+
+execute:
+  execute-by: cell
+  cache: true
+  freeze: auto
